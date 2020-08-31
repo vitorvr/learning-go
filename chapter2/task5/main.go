@@ -5,6 +5,9 @@ import (
 )
 
 func main() {
-	x := 42
-	fmt.Printf("%d\t%b\t%#x\n", x, x, x)
+	x := `Raw
+String
+Literal`
+
+	fmt.Println(x)
 }
